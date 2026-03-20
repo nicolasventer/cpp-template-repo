@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: [-std=c++17, -Wall, -Wextra, -Icommon/include, -Ilib/include]
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+Hover:
+  ShowAKA: Yes

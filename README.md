@@ -1,67 +1,81 @@
-# XXXX
+# Project Name
 
-# Description
+## Description
 
-XXXX is a **...** that allows you to **...**.
+`Project Name` is a concise description of what this project does and who it is for.
+Use this section to explain the problem solved, the project goals, and the main value it provides.
 
-# Features
+## Features
 
-- feature 1
-- feature 2
+- Clear feature or capability 1
+- Clear feature or capability 2
+- Clear feature or capability 3
 
-# Installation
+## Planned Features (optional)
 
-### Header only
+- Planned enhancement 1
+- Planned enhancement 2
+- Planned enhancement 3
 
-Include the [`xxxx.hpp`](xxxx.hpp) anywhere you want to use it.  
-And above only one include, define `XXXX_IMPLEMENTATION` like this:
+## Examples
 
-```cpp
-#define XXXX_IMPLEMENTATION
-#include "xxxx.hpp"
-```
+Example snippet:
 
-### Header and source
-
-Include the [`xxxx.hpp`](xxxx.hpp) anywhere you want to use it.    
-Compile with the [`xxxx.cpp`](xxxx.cpp) file or with the built dll available [here](https://github.com/nicolasventer/cpp-template-repo/releases).
-
-### Build the dll
-
-```bash
-g++ -shared -O3 -fPIC -static -o xxxx.dll xxxx.cpp
-```
-
-Note: the `-static` flag is required.
-
-### Requirements
-
-c++11 or later required for compilation.  
-No external dependencies.
-
-# Example
-
-*Content of [example.cpp](example.cpp):*
 ```cpp
 #include <iostream>
 
-int main() { return 0; }
+int main() {
+  std::cout << "Hello from Project Name\n";
+  return 0;
+}
+```
+
+Expected output:
+
+```txt
+Hello from Project Name
+```
+
+## Installation
+
+Download the executable/library from the [releases](https://github.com/<your-user>/<your-repo>/releases) page.
+
+## Usage
+
+Basic usage example:
+
+```bash
+./build/app
+```
+
+Arguments:
+
+```bash
+./build/app --help
 ```
 
 Output:
-```
-...
-```
 
-# Usage
-
-```cpp	
-// XXYY ...
+```txt
+Usage: ./build/app [options]
 ```
 
-# Licence
+## Build
 
-MIT Licence. See [LICENSE file](LICENSE).
-Please refer me with:
+### Clone the repository:
 
-	Copyright (c) Nicolas VENTER All rights reserved.
+```bash
+git clone https://github.com/<your-user>/<your-repo>.git
+cd <your-repo>
+```
+
+### Build the project:
+
+```bash
+./build.bat
+```
+
+## License
+
+This project is licensed under the MIT License.
+See [`LICENSE`](LICENSE) for details.

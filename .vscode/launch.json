@@ -3,6 +3,7 @@
 	"configurations": [
 		{
 			"name": "(gdb) Build and Launch",
+			// extension: https://marketplace.visualstudio.com/items?itemName=KylinIdeTeam.cppdebug
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${fileDirname}\\${fileBasenameNoExtension}.exe",

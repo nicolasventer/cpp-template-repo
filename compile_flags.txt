@@ -1,5 +1,3 @@
--xc++
--std=c++17
 -Wall
 -Wextra
 -Wpedantic
@@ -10,6 +8,4 @@
 -Wswitch-enum
 -Wnull-dereference
 -Wno-gnu-zero-variadic-macro-arguments
- -Wno-c2y-extensions
--Icommon/include
--Ilib/include
+-Wno-c2y-extensions

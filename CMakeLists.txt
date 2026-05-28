@@ -20,7 +20,6 @@ target_compile_options(project_warnings INTERFACE
   -Wextra
   -Wpedantic
   -Wconversion
-  -Wpadded
   -Wshadow
   -Wsign-conversion
   -Wswitch-enum

@@ -9,12 +9,14 @@ CompileFlags:
       -Wswitch-enum
       -Wnull-dereference
       -Wno-gnu-zero-variadic-macro-arguments
-      -Wno-c2y-extensions,
+      -Wno-c2y-extensions
     ]
   CompilationDatabase: build/
 Diagnostics:
   UnusedIncludes: Strict
   MissingIncludes: Strict
+  Includes:
+    IgnoreHeader: ["bits/.*"]
 InlayHints:
   Enabled: Yes
   ParameterNames: Yes

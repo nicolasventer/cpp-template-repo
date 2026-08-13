@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
-project(MathTemplate LANGUAGES CXX)
+project(MathTemplate LANGUAGES CXX C)
 
 # Build all examples (e.g. cmake -DBUILD_ALL=ON .. or pass --all if your script sets this)
 option(BUILD_ALL "Build main app and all examples" OFF)
 
-# Use C++17
-set(CMAKE_CXX_STANDARD 17)
+# Use C++20
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
